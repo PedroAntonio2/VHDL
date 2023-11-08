@@ -52,4 +52,5 @@ nx_state <= WriteData{i+2};
    return vhdl_code
 
 # Test the function
-print(generate_vhdl("FASE1: OK"))
+if __name__ == '__main__':
+   print(generate_vhdl("FASE1: OK"))
